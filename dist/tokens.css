@@ -6,6 +6,11 @@
  * Para cambiar la paleta de una nueva gestion, editar solo este archivo.
  */
 
+/* Google Fonts — incluidas aqui para que cualquier proyecto que importe
+   este archivo obtenga las fuentes sin configuracion adicional */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tourney:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root {
 
   /* =============================================
