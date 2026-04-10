@@ -10,59 +10,69 @@
 
 :root {
 
-  /* =============================================
+   /* =============================================
      MARCA — Colores principales de la gestion
      ============================================= */
-  --color-brand-primary:        #8B1A1A;   /* rojo oscuro — fondo principal, botones primarios */
-  --color-brand-primary-light:  #B22222;   /* rojo medio — hover, variantes claras */
-  --color-brand-primary-dark:   #5C0F0F;   /* rojo muy oscuro — estados activos */
+   --color-brand-primary: #2520C1;
+   /* azul — fondo principal, botones primarios */
+   --color-brand-primary-light: #4B45E8;
+   /* azul claro — hover, variantes claras */
+   --color-brand-primary-dark: #181491;
+   /* azul oscuro — estados activos */
 
-  --color-brand-accent:         #E8A020;   /* amarillo dorado — sol del logo, destacados */
-  --color-brand-accent-light:   #F5C55A;   /* dorado claro — hover accent */
-  --color-brand-accent-dark:    #B87A10;   /* dorado oscuro — texto sobre accent */
+   --color-brand-accent: #FFFFFF;
+   /* blanco — franja media de la bandera */
+   --color-brand-accent-light: #FFFFFF;
+   /* blanco puro */
+   --color-brand-accent-dark: #F0F0F0;
+   /* blanco grisaceo — texto sobre accent */
 
-  --color-brand-secondary:      #7B3A1A;   /* marron — interior del sol, elementos secundarios */
+   --color-brand-secondary: #169401;
+   /* verde — elementos secundarios */
 
-  /* =============================================
+   /* =============================================
      SEMANTICOS — Estados del sistema
      ============================================= */
-  --color-success:              #22C55E;
-  --color-success-light:        #DCFCE7;
-  --color-warning:              #F59E0B;
-  --color-warning-light:        #FEF3C7;
-  --color-danger:               #DC2626;
-  --color-danger-light:         #FEE2E2;
-  --color-info:                 #0EA5E9;
-  --color-info-light:           #E0F2FE;
+   --color-success: #22C55E;
+   --color-success-light: #DCFCE7;
+   --color-warning: #F59E0B;
+   --color-warning-light: #FEF3C7;
+   --color-danger: #DC2626;
+   --color-danger-light: #FEE2E2;
+   --color-info: #0EA5E9;
+   --color-info-light: #E0F2FE;
 
-  /* =============================================
+   /* =============================================
      NEUTRALES — Texto, fondos, bordes
      ============================================= */
-  --color-dark:                 #1A1A1A;   /* texto principal */
-  --color-muted:                #6B7280;   /* texto secundario */
-  --color-light:                #F5F5F5;   /* fondo claro */
-  --color-white:                #FFFFFF;
-  --color-black:                #000000;
-  --color-border:               #E5E7EB;
-  --color-border-dark:          #D1D5DB;
+   --color-dark: #1A1A1A;
+   /* texto principal */
+   --color-muted: #6B7280;
+   /* texto secundario */
+   --color-light: #F5F5F5;
+   /* fondo claro */
+   --color-white: #FFFFFF;
+   --color-black: #000000;
+   --color-border: #E5E7EB;
+   --color-border-dark: #D1D5DB;
 
-  /* =============================================
+   /* =============================================
      TIPOGRAFIA
      ============================================= */
-  --font-primary:               "DM Sans", sans-serif;
-  --font-display:               "Tourney", sans-serif;
+   --font-primary: "DM Sans", sans-serif;
+   --font-display: "Tourney", sans-serif;
 
-  /* =============================================
+   /* =============================================
      ALIASES — compatibilidad con proyectos existentes
      Estos mapean los tokens de marca a los nombres
      que ya usan admin_alcaldia y frontend_alcaldia
      ============================================= */
 
-  /* Admin (TailwindCSS) */
-  --color-primary:              var(--color-brand-primary);
-  --color-secondary:            var(--color-brand-secondary);
+   /* Admin (TailwindCSS) */
+   --color-primary: var(--color-brand-primary);
+   --color-secondary: var(--color-brand-secondary);
 
-  /* Frontend (Bootstrap / ztc-*) */
-  --color-primary-light:        var(--color-brand-primary-light);
-  --color-accent:               var(--color-brand-accent);
+   /* Frontend (Bootstrap / ztc-*) */
+   --color-primary-light: var(--color-brand-primary-light);
+   --color-accent: var(--color-brand-accent);
 }
